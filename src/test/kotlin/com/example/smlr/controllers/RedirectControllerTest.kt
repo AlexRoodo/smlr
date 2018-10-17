@@ -24,7 +24,8 @@ import org.springframework.web.context.WebApplicationContext
 @WebAppConfiguration
 class RedirectControllerTest {
 
-    @Autowired lateinit var webApplicationContext: WebApplicationContext
+    @Autowired
+    lateinit var webApplicationContext: WebApplicationContext
 
     lateinit var mockMvc: MockMvc
 
